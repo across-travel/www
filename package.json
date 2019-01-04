@@ -1,0 +1,24 @@
+{
+  "name": "ouisrc",
+  "version": "1.0.0",
+  "description": "ouisrc",
+  "repository": "https://github.com/ouisrc/ouisrc.git",
+  "license": "GPL-3",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuex": "^3.0.1",
+    "vuepress-theme-vue": "^1.0.3"
+  },
+  "devDependencies": {
+    "vuepress": "0.14.8"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
